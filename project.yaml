@@ -1,7 +1,7 @@
 schema_version: 0.2.0
 slug: project-2699
 project_title: Sample Report
-client_name: Design Architect
+client_name: Architect
 building_name: Sample Project
 phase: Design Analysis
 report_date: '2026-09-29'
@@ -19,7 +19,7 @@ building:
   building_type: TBD
   total_num_occupants: null
 source_files:
-  phpp_path: ''
+  phpp_path: ../07_PHPP/2699 Sample Project.xlsx
   cad_files_received_date: null
   data_dir: data
   assets_dir: public/assets
