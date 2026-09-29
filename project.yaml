@@ -1,8 +1,8 @@
 schema_version: 0.2.0
 slug: project-2699
 project_title: Sample Report
-client_name: Architect
-building_name: Sample Project
+client_name: Design Architect
+building_name: Sample Building
 phase: Design Analysis
 report_date: '2026-09-29'
 prepared_by: bldgtyp, llc
