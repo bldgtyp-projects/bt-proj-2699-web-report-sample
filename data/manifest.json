@@ -38,15 +38,15 @@
       "source_column": "J"
     },
     {
-      "id": "as_built",
-      "name": "As-Built",
+      "id": "as_designed",
+      "name": "As-Designed",
       "order": 4,
       "color": "auto",
       "recommended": true,
       "source_column": "K"
     }
   ],
-  "recommended_variant_id": "as_built",
+  "recommended_variant_id": "as_designed",
   "source_workbook": {
     "path": "/Users/johnmitchell/Dropbox/bldgtyp-00/00_00 MARKETING/Web Report Sample/07_PHPP/2699 Sample Project.xlsx",
     "sha256": "fdfa514c7e9416c59e4c01c397bf5498c69a20e8aa770ec7aec0703a5f2922a4",

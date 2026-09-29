@@ -35,12 +35,12 @@ window_area_east,windows,ft2,85.0303591474,geometry.window_area_east,Window Area
 window_area_south,windows,ft2,125.153362175,geometry.window_area_south,Window Area (South),284
 window_area_west,windows,ft2,109.031627862,geometry.window_area_west,Window Area (West),285
 window_area_horizontal,windows,ft2,0,geometry.window_area_horiz,Window Area (Horiz),286
-treated_floor_area,as_built,ft2,1764.31255694,geometry.tfa,TFA,278
-building_envelope_area,as_built,ft2,5712.34299243,geometry.building_envelope_area,Building Envelope Area,281
-interior_net_volume,as_built,ft3,20733.2408313,geometry.vn50,Vn50,280
-envelope_area_to_tfa,as_built,ft2/ft2,3.23771599876,,,
-window_area_north,as_built,ft2,107.254240143,geometry.window_area_north,Window Area (North),282
-window_area_east,as_built,ft2,85.0303591474,geometry.window_area_east,Window Area (East),283
-window_area_south,as_built,ft2,125.153362175,geometry.window_area_south,Window Area (South),284
-window_area_west,as_built,ft2,109.031627862,geometry.window_area_west,Window Area (West),285
-window_area_horizontal,as_built,ft2,0,geometry.window_area_horiz,Window Area (Horiz),286
+treated_floor_area,as_designed,ft2,1764.31255694,geometry.tfa,TFA,278
+building_envelope_area,as_designed,ft2,5712.34299243,geometry.building_envelope_area,Building Envelope Area,281
+interior_net_volume,as_designed,ft3,20733.2408313,geometry.vn50,Vn50,280
+envelope_area_to_tfa,as_designed,ft2/ft2,3.23771599876,,,
+window_area_north,as_designed,ft2,107.254240143,geometry.window_area_north,Window Area (North),282
+window_area_east,as_designed,ft2,85.0303591474,geometry.window_area_east,Window Area (East),283
+window_area_south,as_designed,ft2,125.153362175,geometry.window_area_south,Window Area (South),284
+window_area_west,as_designed,ft2,109.031627862,geometry.window_area_west,Window Area (West),285
+window_area_horizontal,as_designed,ft2,0,geometry.window_area_horiz,Window Area (Horiz),286

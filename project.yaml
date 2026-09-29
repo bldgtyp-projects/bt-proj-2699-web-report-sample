@@ -10,7 +10,7 @@ contact_email: ed@bldgtyp.com
 target_standard: PHI Low Energy Building (benchmark)
 certification_program: PHI
 certification_path: Low Energy Building
-recommended_variant_id: as_built
+recommended_variant_id: as_designed
 building:
   address: Withheld (sample report)
   city: Withheld (sample report)
@@ -32,7 +32,7 @@ publishing:
 certification_pathways: null
 narrative:
   certification:
-    target: As-Built
+    target: As-Designed
     ph_ach_limit: '0.6'
     phi_lcd_limit: null
     phi_cd_limit: null
