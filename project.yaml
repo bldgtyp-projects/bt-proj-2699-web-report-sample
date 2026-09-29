@@ -7,20 +7,20 @@ phase: Design Analysis
 report_date: '2026-09-29'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
-target_standard: TBD
-certification_program: TBD
-certification_path: TBD
-recommended_variant_id: null
+target_standard: PHI Low Energy Building (benchmark)
+certification_program: PHI
+certification_path: Low Energy Building
+recommended_variant_id: as_built
 building:
-  address: TBD
-  city: TBD
-  state: TBD
-  climate_zone: TBD
-  building_type: TBD
-  total_num_occupants: null
+  address: Withheld (sample report)
+  city: Withheld (sample report)
+  state: NY
+  climate_zone: 6A
+  building_type: Single-family residence, new construction
+  total_num_occupants: 3
 source_files:
   phpp_path: ../07_PHPP/2699 Sample Project.xlsx
-  cad_files_received_date: null
+  cad_files_received_date: March 26, 2024
   data_dir: data
   assets_dir: public/assets
 publishing:
@@ -32,8 +32,8 @@ publishing:
 certification_pathways: null
 narrative:
   certification:
-    target: null
-    ph_ach_limit: null
+    target: As-Built
+    ph_ach_limit: '0.6'
     phi_lcd_limit: null
     phi_cd_limit: null
     phi_leb_cd_limit: null
@@ -50,38 +50,38 @@ narrative:
     phius_nse_limit: null
     phius_cfm50_limit: null
   climate:
-    weather_station_name: null
-    weather_station_url: null
-    state_name: null
-    state_name_abbreviation: null
-    ashrae_location_name: null
-    ashrae_design_temps: null
-    ashrae_winter_design_temp_F: null
-    ashrae_winter_design_temp_C: null
+    weather_station_name: TMY3 climate data, nearest weather station (New York, Climate Zone 6A)
+    weather_station_url: https://energyplus.net/weather
+    state_name: New York
+    state_name_abbreviation: NY
+    ashrae_location_name: New York, Climate Zone 6(A)
+    ashrae_design_temps: 0.7°F / -17.4°C
+    ashrae_winter_design_temp_F: '0.7'
+    ashrae_winter_design_temp_C: '-17.4'
   energy_code:
-    name: null
-    zone: null
-    link: null
-    code_base_url: null
-    code_airtightness_url: null
-    u_val_link: null
-    ach_link: null
-    ach_limit: null
-    window_min_u_value: null
+    name: NYS Energy Code 2020
+    zone: Zone 6(A)
+    link: https://up.codes/viewer/new_york/ny-energy-conservation-code-2020
+    code_base_url: https://up.codes/viewer/new_york/ny-energy-conservation-code-2020/chapter/RE_4/re-residential-energy-efficiency#R402.1.4
+    code_airtightness_url: https://up.codes/viewer/new_york/ny-energy-conservation-code-2020/chapter/RE_4/re-residential-energy-efficiency#R402.4.1.2
+    u_val_link: https://up.codes/viewer/new_york/ny-energy-conservation-code-2020/chapter/RE_4/re-residential-energy-efficiency#R402.1.4
+    ach_link: https://up.codes/viewer/new_york/ny-energy-conservation-code-2020/chapter/RE_4/re-residential-energy-efficiency#R402.4.1.2
+    ach_limit: '3.0'
+    window_min_u_value: '0.30'
   co2:
-    subregion_name: null
-    epa_subgrid_name: null
-    occupancy: null
-    target_tons: null
-    taget_co2_per_person: null
+    subregion_name: Upstate New York (NYUP)
+    epa_subgrid_name: Upstate New York (NYUP)
+    occupancy: '3'
+    target_tons: '3'
+    taget_co2_per_person: '1'
   windows:
-    ph_window_u_value: null
-    ph_window_r_value: null
-    comfort_target_r_value: null
-    comfort_target_u_value: null
+    ph_window_u_value: '0.14'
+    ph_window_r_value: '6.9'
+    comfort_target_r_value: '6.9'
+    comfort_target_u_value: '0.14'
   mechanical:
     erv:
-      manufacturer_name: null
-      type_name: null
-      link: null
+      manufacturer_name: Zehnder America
+      type_name: Zehnder America ComfoAir Q350 ERV
+      link: https://www.zehnderamerica.com/
   user_defined: {}
