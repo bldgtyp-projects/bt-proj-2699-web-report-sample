@@ -1,0 +1,29 @@
+name: CI
+
+# Per-project CI delegates everything to the reusable workflow in the
+# template repo. Editing the build pipeline happens in ONE place:
+# bldgtyp/bt-web-report-template/.github/workflows/_renderer-build.yml
+#
+# Refs MUST be explicit SHAs (or tags). Floating `main` is rejected by
+# `btwr new` / `btwr pin` because it causes cross-project cascade
+# redeploys when the template changes. `btwr new` substitutes the SHAs
+# below at seed time; `btwr pin` rewrites them when the project intentionally
+# advances to a newer template revision.
+#
+# Schemas comes from the public npm registry (@bldgtyp/web-report-schemas);
+# no auth token required for the dependency fetch.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    uses: bldgtyp/bt-web-report-template/.github/workflows/_renderer-build.yml@65a1448ec0b9c1640e85542a2bf8dcad105738d6
+    with:
+      project-repo: ${{ github.repository }}
+      project-ref: ${{ github.ref }}
+      renderer-ref: 65a1448ec0b9c1640e85542a2bf8dcad105738d6
+      schemas-ref: 359a8f83c8079b040f771a0a3f4a9d6608023bda
+      run-deploy: false
